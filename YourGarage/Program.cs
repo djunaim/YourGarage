@@ -11,21 +11,18 @@ namespace YourGarage
             // With a single `foreach`, have each vehicle Fly()
             var boeing = new Aircraft
             {
-                Color = CarColor.Yellow,
                 PassengerOccupancy = 100,
                 FuelCapacity = 1000
             };
 
             var jet = new Aircraft
             {
-                Color = CarColor.Blue,
                 PassengerOccupancy = 10,
                 FuelCapacity = 100
             };
 
             var turboprop = new Aircraft
             {
-                Color = CarColor.Purple,
                 PassengerOccupancy = 3,
                 FuelCapacity = 200
             };
@@ -43,22 +40,19 @@ namespace YourGarage
             // With a single `foreach`, have each road vehicle Drive()
 
             var truck = new Car
-            {
-                Color = CarColor.Red,
+            {               
                 PassengerOccupancy = 6,
                 FuelType = "Diesel"
             };
 
             var bus = new Car
-            {
-                Color = CarColor.Yellow,
+            {                
                 PassengerOccupancy = 20,
                 FuelType = "Diesel"
             };
 
             var honda = new Car
             {
-                Color = CarColor.Purple,
                 PassengerOccupancy = 3,
                 FuelType = "Unleaded"
             };
@@ -78,14 +72,12 @@ namespace YourGarage
 
             var jetSki = new Watercraft
             {
-                Color = CarColor.Blue,
                 PassengerOccupancy = 2,
                 FuelCapacity = 10
             };
 
             var dinghy = new Watercraft
             {
-                Color = CarColor.Gray,
                 PassengerOccupancy = 4,
                 FuelCapacity = 0
             };

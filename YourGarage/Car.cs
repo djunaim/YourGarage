@@ -4,7 +4,7 @@ using System.Text;
 
 namespace YourGarage
 {
-    class Car : Vehicle
+    class Car : Vehicle, IDrive
     {
         public string FuelType { get; set; }
         public void Driving()

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace YourGarage
 {
-    abstract class Vehicle
+    abstract class Vehicle : IColor, IRefuel
     {
-        public CarColor Color { get; set; }
+        public CarColor Color => CarColor.Gray;
         public int PassengerOccupancy { get; set; }
         public abstract void Refueling();
     }
